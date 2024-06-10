@@ -1,6 +1,10 @@
 const workoutService = require("../services/workoutService");
 
 const getAllWorkouts = (req, res) => {
+  console.log(req.hostname);
+  const userAgent = req.get('User-Agent'); // Obtén la cabecera User-Agent
+  // Aquí puedes procesar el login y registrar el user-agent
+  console.log(`User-Agent: ${userAgent}`);
   const { mode } = req.query;
   try {
     const allWorkouts = workoutService.getAllWorkouts({ mode });
