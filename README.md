@@ -16,5 +16,5 @@ Welcome to the **My Node.js Backend Application** repository! This project serve
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/siulppeking/base-backend
+cd base-backend

@@ -1,6 +1,6 @@
 require('dotenv').config();
 const express = require("express");
-const apicache = require("apicache");
+//const apicache = require("apicache");
 const morgan = require('morgan');
 const cors = require("cors");
 const v1WorkoutRouter = require("./v1/routes/workoutRoutes");
