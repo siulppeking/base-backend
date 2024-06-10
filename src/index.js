@@ -9,7 +9,7 @@ const { swaggerDocs: V1SwaggerDocs } = require("./v1/swagger");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const cache = apicache.middleware;
+//const cache = apicache.middleware;
 
 app.use(morgan('dev'));
 app.use(cors());
